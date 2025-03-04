@@ -48,6 +48,25 @@
         tap-ms = <100>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <23 24>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 17>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <3 4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
