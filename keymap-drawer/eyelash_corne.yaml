@@ -244,3 +244,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+combos:
+- p: [23, 24]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [16, 17]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [3, 4]
+  k: $$mdi:backspace-reverse-outline$$
