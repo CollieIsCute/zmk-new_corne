@@ -100,7 +100,7 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL     &kp TILDE     &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE                                  &mmv MOVE_UP                     &kp LESS_THAN      &kp GREATER_THAN  &kp LS(EQUAL)  &kp MINUS  &kp COLON             &kp PERCENT
-&trans  &kp AT_SIGN  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOUBLE_QUOTES  &kp SQT           &kp LBKT       &kp RBKT   &kp SEMICOLON         &trans
+&trans  &kp AT_SIGN  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOUBLE_QUOTES  &kp SQT           &kp QUESTION   &trans     &kp SEMICOLON         &trans
 &trans  &kp HASH     &kp LCTRL     &kp DOLLAR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &mmv MOVE_DOWN                   &kp UNDERSCORE     &kp EQUAL         &kp SLASH      &kp PIPE   &kp NON_US_BACKSLASH  &trans
                                    &trans         &trans                &trans                                                                            &trans             &trans            &trans
             >;
