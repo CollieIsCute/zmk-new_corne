@@ -55,6 +55,7 @@
             flavor = "balanced";
             tapping-term-ms = <130>;
             hold-while-undecided;
+            retro-tap;
         };
 
         tab_tap_hold: tab_tap_hold {
@@ -66,6 +67,7 @@
             tapping-term-ms = <130>;
             flavor = "balanced";
             hold-while-undecided;
+            retro-tap;
         };
 
         scroll_left_right: scroll_left_right {
