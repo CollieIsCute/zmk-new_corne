@@ -45,7 +45,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '&space_tap', h: SYMBOL}
+  - {t: '0', h: SYMBOL}
   - {t: '&tab_tap', h: Fn/connection}
   - {t: '$$mdi:keyboard-esc$$', h: QWERTY}
   qwerty_mac:
@@ -94,7 +94,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '&space_tap', h: SYMBOL}
+  - {t: '0', h: SYMBOL}
   - {t: '&tab_tap', h: Fn/connection}
   - {t: '$$mdi:keyboard-esc$$', h: QWERTY}
   NUMBER:
