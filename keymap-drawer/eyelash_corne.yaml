@@ -90,7 +90,7 @@ layers:
   - '2'
   - '3'
   - '%'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
