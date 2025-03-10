@@ -47,7 +47,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '&space_tap', h: SYMBOL}
   - {t: '&tab_tap', h: Fn/connection}
-  - {t: '$$mdi:keyboard-esc$$', h: connection}
+  - {t: '$$mdi:keyboard-esc$$', h: QWERTY}
   qwerty_mac:
   - NUMBER
   - Q
@@ -96,7 +96,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '&space_tap', h: SYMBOL}
   - {t: '&tab_tap', h: Fn/connection}
-  - {t: '$$mdi:keyboard-esc$$', h: connection}
+  - {t: '$$mdi:keyboard-esc$$', h: QWERTY}
   NUMBER:
   - {type: held}
   - F1
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  connection:
+  '5':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [23, 24]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
