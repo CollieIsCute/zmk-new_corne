@@ -126,7 +126,7 @@
                                             &trans        &trans        &trans                                                                   &trans    &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RS(C_AC_SCROLL_UP) C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         connection {
@@ -137,7 +137,7 @@
                         &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AL_CONTROL_PANEL LS(C_AL_CONTROL_PANEL)>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN LS(C_AC_ZOOM_OUT)>;
         };
     };
 };
