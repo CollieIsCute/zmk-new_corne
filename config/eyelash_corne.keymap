@@ -34,7 +34,7 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE>, <&key_repeat>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <130>;
         };
 
         tab_tap: tab_tap {
@@ -43,7 +43,7 @@
             #binding-cells = <0>;
             bindings = <&kp TAB>, <&key_repeat>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <130>;
         };
 
         space_tap_hold: space_tap_hold {
@@ -53,7 +53,7 @@
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <130>;
+            tapping-term-ms = <150>;
             retro-tap;
         };
 
@@ -63,7 +63,7 @@
             bindings = <&mo>, <&tab_tap>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <130>;
+            tapping-term-ms = <150>;
             flavor = "balanced";
             retro-tap;
         };
