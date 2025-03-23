@@ -52,9 +52,10 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "hold-preferred";
             tapping-term-ms = <130>;
             hold-while-undecided;
+            retro-tap;
         };
 
         tab_tap_hold: tab_tap_hold {
