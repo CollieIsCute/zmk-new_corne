@@ -32,7 +32,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SPACE_TAP";
             #binding-cells = <0>;
-            bindings = <&lt 2 SPACE>, <&kp SPACE>;
+            bindings = <&lt 3 SPACE>, <&kp SPACE>;
 
             tapping-term-ms = <100>;
         };
@@ -41,7 +41,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAB_TAP";
             #binding-cells = <0>;
-            bindings = <&lt 3 TAB>, <&kp TAB>;
+            bindings = <&lt 4 TAB>, <&kp TAB>;
 
             tapping-term-ms = <100>;
         };
@@ -90,12 +90,24 @@
         QWERTY {
             display-name = "QWERTY";
             bindings = <
-&mo 1                       &kp Q  &kp W  &kp E     &kp R         &kp T                                     &kp UP                &kp Y       &kp U     &kp I         &kp O    &kp P     &caps_word
+&mo 2                       &kp Q  &kp W  &kp E     &kp R         &kp T                                     &kp UP                &kp Y       &kp U     &kp I         &kp O    &kp P     &caps_word
 &mt LEFT_SHIFT RIGHT_SHIFT  &kp A  &kp S  &kp D     &kp F         &kp G                           &kp LEFT  &kp ENTER  &kp RIGHT  &kp H       &kp J     &kp K         &kp L    &kp SEMI  &sl 0
 &none                       &kp Z  &kp X  &kp C     &kp V         &kp B             &kp C_MUTE              &kp DOWN              &kp N       &kp M     &kp COMMA     &kp DOT  &kp FSLH  &kp K_LOCK
                                           &kp LGUI  &kp LEFT_ALT  &kp LEFT_CONTROL                                                &space_tap  &tab_tap  &lt 0 ESCAPE
             >;
 
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        qwerty_mac {
+            bindings = <
+&trans  &trans  &trans  &trans     &trans  &trans                      &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp LCTRL  &trans  &kp LGUI                                    &trans  &trans  &trans
+            >;
+
+            label = "qwerty_mac";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
@@ -126,24 +138,13 @@
         controls {
             display-name = "Fn/connection";
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4                            &mmv MOVE_UP                     &trans    &kp PAGE_UP     &kp UP_ARROW    &kp KP_NUMLOCK   &kp CAPSLOCK  &trans
-&out OUT_TOG    &trans        &trans        &trans        &kp C_SNAPSHOT  &trans                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END       &trans
-&sys_reset      &bootloader   &trans        &trans        &trans          &trans        &trans                    &mmv MOVE_DOWN                   &trans    &kp PAGE_DOWN   &trans          &trans           &trans        &trans
-                                            &trans        &trans          &trans                                                                   &trans    &trans          &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &mmv MOVE_UP                     &trans    &kp PAGE_UP     &kp UP_ARROW    &kp KP_NUMLOCK   &kp CAPSLOCK  &trans
+&out OUT_BLE    &out OUT_USB  &trans        &trans        &trans        &trans                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END       &trans
+&sys_reset      &bootloader   &trans        &trans        &trans        &trans        &trans                    &mmv MOVE_DOWN                   &trans    &kp PAGE_DOWN   &trans          &trans           &trans        &trans
+                                            &trans        &trans        &trans                                                                   &trans    &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DELETE BACKSPACE>;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&scroll_left_right>;
         };
     };
 };
