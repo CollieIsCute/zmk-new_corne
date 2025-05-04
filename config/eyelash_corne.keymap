@@ -126,9 +126,9 @@
         symbols {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL     &kp TILDE     &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE                                  &mmv MOVE_UP                     &kp LESS_THAN      &kp GREATER_THAN  &kp LS(EQUAL)  &kp MINUS  &kp COLON      &none
-&trans  &kp AT_SIGN  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOUBLE_QUOTES  &kp SQT           &kp QUESTION   &trans     &kp SEMICOLON  &trans
-&trans  &kp HASH     &kp LCTRL     &kp DOLLAR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &mmv MOVE_DOWN                   &kp UNDERSCORE     &kp EQUAL         &kp SLASH      &kp PIPE   &kp BACKSLASH  &trans
+&trans  &kp EXCL     &kp TILDE     &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE                                  &mmv MOVE_UP                     &kp LESS_THAN      &kp GREATER_THAN  &kp LS(EQUAL)  &kp MINUS    &kp COLON      &none
+&trans  &kp AT_SIGN  &kp ASTERISK  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOUBLE_QUOTES  &kp SQT           &kp QUESTION   &kp PERCENT  &kp SEMICOLON  &trans
+&trans  &kp HASH     &kp LCTRL     &kp DOLLAR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &mmv MOVE_DOWN                   &kp UNDERSCORE     &kp EQUAL         &kp SLASH      &kp PIPE     &kp BACKSLASH  &trans
                                    &trans         &trans                &trans                                                                            &trans             &trans            &trans
             >;
 
