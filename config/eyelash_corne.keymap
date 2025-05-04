@@ -144,7 +144,7 @@
                                             &trans        &trans        &trans                                                                   &trans    &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp DELETE BACKSPACE>;
+            sensor-bindings = <&scroll_up_down>;
         };
     };
 };
