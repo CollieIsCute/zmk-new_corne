@@ -32,7 +32,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SPACE_TAP";
             #binding-cells = <0>;
-            bindings = <&space_tap_hold 2 SPACE>, <&kp SPACE>;
+            bindings = <&lt 2 SPACE>, <&kp SPACE>;
 
             tapping-term-ms = <30>;
         };
