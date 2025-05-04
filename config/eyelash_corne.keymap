@@ -51,7 +51,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
 
-            tap-ms = <100>;
+            tap-ms = <20>;
             label = "SCROLL_LEFT_RIGHT";
         };
     };
@@ -61,7 +61,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc MOVE_Y(-5)>, <&msc MOVE_Y(5)>;
 
-        tap-ms = <100>;
+        tap-ms = <20>;
         label = "SCROLL_UP_DOWN";
     };
 
