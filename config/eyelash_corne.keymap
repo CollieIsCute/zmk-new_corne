@@ -57,6 +57,7 @@
             quick-tap-ms = <130>;
             hold-while-undecided-linger;
             hold-while-undecided;
+            require-prior-idle-ms = <100>;
         };
 
         tab_tap_hold: tab_tap_hold {
@@ -69,6 +70,7 @@
             flavor = "balanced";
             hold-while-undecided-linger;
             hold-while-undecided;
+            require-prior-idle-ms = <100>;
         };
 
         scroll_left_right: scroll_left_right {
