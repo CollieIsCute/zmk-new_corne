@@ -34,7 +34,7 @@
             #binding-cells = <0>;
             bindings = <&lt 2 SPACE>, <&kp SPACE>;
 
-            tapping-term-ms = <80>;
+            tapping-term-ms = <100>;
         };
 
         tab_tap: tab_tap {
