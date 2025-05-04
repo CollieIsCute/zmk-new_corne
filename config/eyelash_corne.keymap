@@ -34,42 +34,16 @@
             #binding-cells = <0>;
             bindings = <&lt 2 SPACE>, <&kp SPACE>;
 
-            tapping-term-ms = <30>;
+            tapping-term-ms = <80>;
         };
 
         tab_tap: tab_tap {
             compatible = "zmk,behavior-tap-dance";
             label = "TAB_TAP";
             #binding-cells = <0>;
-            bindings = <&tab_tap_hold 3 TAB>, <&kp TAB>;
+            bindings = <&lt 3 TAB>, <&kp TAB>;
 
-            tapping-term-ms = <130>;
-        };
-
-        space_tap_hold: space_tap_hold {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SPACE_TAP_HOLD";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <50>;
-            quick-tap-ms = <(-1)>;
-            hold-while-undecided-linger;
-            require-prior-idle-ms = <100>;
-        };
-
-        tab_tap_hold: tab_tap_hold {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TAB_TAP_HOLD";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <50>;
-            flavor = "hold-preferred";
-            hold-while-undecided-linger;
-            require-prior-idle-ms = <100>;
-            quick-tap-ms = <(-1)>;
+            tapping-term-ms = <100>;
         };
 
         scroll_left_right: scroll_left_right {
