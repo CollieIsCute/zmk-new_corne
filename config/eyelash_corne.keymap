@@ -54,7 +54,7 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <130>;
-            quick-tap-ms = <130>;
+            quick-tap-ms = <(-1)>;
             hold-while-undecided-linger;
             require-prior-idle-ms = <100>;
         };
@@ -69,7 +69,7 @@
             flavor = "hold-preferred";
             hold-while-undecided-linger;
             require-prior-idle-ms = <100>;
-            quick-tap-ms = <130>;
+            quick-tap-ms = <(-1)>;
         };
 
         scroll_left_right: scroll_left_right {
